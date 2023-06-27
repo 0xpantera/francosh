@@ -1,0 +1,22 @@
+{
+  "name": "francosh-project",
+  "version": "1.0.0",
+  "description": "frontend framework by an ml engineer",
+  "private": true,
+  "main": "index.js",
+  "workspaces": [
+    "packages/runtime",
+    "packages/compiler",
+    "packages/loader"
+    ]
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "node-fetch": "^3.2.6"
+  }
+}
