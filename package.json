@@ -8,9 +8,9 @@
     "packages/runtime",
     "packages/compiler",
     "packages/loader"
-    ]
+    ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve:examples": "npx http-server . -o ./examples/"
   },
   "keywords": [],
   "author": "",
