@@ -59,16 +59,16 @@ function renderTodoInEditMode(todo) {
     li.append(input)
 
     const saveButton = document.createElement("button")
-    button.textContent = "Save"
-    button.addEventListener("click", () => {
+    saveButton.textContent = "Save"
+    saveButton.addEventListener("click", () => {
         const idx = todos.indexOf(todo)
         updateTodo(idx, input.value)
     })
     li.append(saveButton)
 
     const cancelButton = document.createElement("button")
-    button.textContent = "Cancel"
-    button.addEventListener("click", () => {
+    cancelButton.textContent = "Cancel"
+    cancelButton.addEventListener("click", () => {
         const idx = todos.indexOf(todo)
         todosList.replaceChild(
             renderTodoInReadMode(todo),
